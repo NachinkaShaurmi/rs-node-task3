@@ -1,6 +1,6 @@
 # Debug in Node.js
 
-## compilation errors
+## Сompilation errors
 
 1
 ошибка: ReferenceError: Router is not defined
@@ -85,3 +85,18 @@ const SERVER_PORT = process.env.SERVER_PORT || 4000;
 ошибка: owner_id: req.user,
 исправление: owner_id: req.user.id,
 Исправлена(ы) строка(и) 73 в файле ./controllers/gamecontroller.js
+
+---------------------------------------
+
+## Refactoring
+
+Исправлены var на let/const
+Исправлено форматирование кода
+Вероятно часть пунктов ошибок является рефакторингом
+
+## Result
+
+Сompilation errors 30/30
+Logic errors 30/30
+Refactoring 10/10
+Amount 70/70
