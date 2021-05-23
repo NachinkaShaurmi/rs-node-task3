@@ -29,8 +29,14 @@
 
 6.
 ошибка: TypeError: require(...).import is not a function  
-исправление: var User = require('../models/user');  
+исправление: var User = require("../db").import("../models/user");  
 Исправлена(ы) строка(и) 2 в файле ./middleware/validate-session.js  
+
+7.
+
+ошибка: "pg": "^7.6.0",  
+исправление: "pg": "^8.6.0",  
+Исправлена(ы) строка(и) 14 в файле ./package.json  
 
 ---------------------------------------
 
